@@ -36,3 +36,133 @@
     transform: rotate(360deg);
   }
 }
+.Navigation:hover{
+  font-size:"70px" !important;
+  /* background-color:#e9c165 !important; */
+  color: #F06000 !important;
+  /* padding-left: 12px !important; */
+  transition: 0.75s !important;
+  border-radius: 6px !important;
+  
+
+ 
+ 
+}
+.Navigation{
+  color: #fff !important;
+  font-size:"80px" !important;
+}
+.Nav_main{
+  background-color: transparent;
+  font-family: 'Architects Daughter', cursive;
+font-family: 'Kaushan Script', cursive;
+   border-bottom: 1px solid white;
+}
+.Division::selection div{
+  background-color: rgb(15, 8, 53) !important;
+  color: #fff !important;
+}
+.navbar-toggler{
+
+  background-color: white !important;
+  
+}
+
+.Division{
+  background-image: url("./img/Home.jpg");
+  background-size: cover;
+  height: 100vh;
+ 
+}
+
+.NameDesc{
+  color: #fff !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px;
+  font-size: 60px;
+  font-family: 'Kaushan Script', cursive;
+  
+}
+
+.WorkDesc{
+  color: white;
+  display: grid;
+  place-items: center;
+  z-index: -1;
+  font-size: 20px;
+  /* position: relative;
+  top: -400px; */
+  /* height: 110vh;
+   */
+}
+
+.FindMe{
+  color: white;
+  display: inline-block;
+  z-index: 1;
+  margin-top: 10px;
+  cursor: pointer;
+ 
+}
+
+.FindMyWork{
+  margin-top: 20px;
+  display: inline-block;
+}
+.CenterWork{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+}
+.workCenter{
+  
+}
+.FindMeCenter{
+  display: grid;
+  place-items: center;
+  
+}
+.Homebg{
+  background-image: url("./img/Home.jpg");
+  background-size: cover;
+  height: 99.8vh;
+  margin-top: -55px;
+}
+.iconssize{
+  font-size: 40px !important;
+}
+.anchor{
+  color: #fff !important;
+}
+.Edudeatails{
+  color: #fff !important;
+  display: flex;
+  font-size: 80px !important;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  
+  font-family: 'Kaushan Script', cursive;
+}
+.cource{
+  
+  font-size: 30px !important;
+  
+}
+.placeYear{
+  font-size: 25px;
+  color: #ffaf02;
+}
+.ytvideo,h1{
+  color: #fff !important;
+  display: flex;
+  font-size: 80px !important;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+
+}
